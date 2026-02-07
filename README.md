@@ -2,9 +2,13 @@
 
 **AI Feedback Loop for Continuous Optimization -- Systems That Test, Learn, and Adapt Automatically**
 
+## 📋 Quick Summary
+
+> 🔄 **會自我進化的測試管線——測試、學習、修復、再測試，全程無需人工介入！** 本專案突破傳統 CI/CD 的線性流程限制，引入 AI 回饋迴圈機制。🤖 系統由多個專業 AI 代理組成：Supervisor 負責任務分解與風險識別、Developer 負責程式碼實作與重構、Tester 負責測試生成與覆蓋率分析。🧪 當測試失敗時，系統不僅回報錯誤，更會 **自動分析根因、產生修復方案、重新執行測試**，反覆迭代直到收斂。📦 提供四套生產級工作流範本：多代理協作、Next.js 測試自動化（五階段循環）、平行開發（前端/後端/資料庫/測試四路並行）、以及行銷智慧分析管線。⚙️ 基於 GitHub Copilot SDK 與 GPT-4.1 構建，每個代理擁有獨立工具權限（edit、view、bash、search），透過記憶體內任務追蹤器管理依賴關係。📊 所有執行結果自動輸出 JSON 資料檔與 Markdown 報告，完美整合進現有開發流程。
+
 ---
 
-## Why This Exists
+## 🤔 Why This Exists
 
 Traditional CI/CD pipelines are linear: code goes in, tests run, a pass/fail comes out. When tests fail, a human reads the error, fixes the code, and pushes again. The pipeline itself learns nothing from each cycle.
 
@@ -14,7 +18,7 @@ This is the concept of self-evolution applied to software development: the syste
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
                     +-----------------------+
@@ -70,7 +74,7 @@ Each workflow implements the same fundamental pattern:
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -83,7 +87,7 @@ Each workflow implements the same fundamental pattern:
 
 ---
 
-## Quick Start
+## 🏁 Quick Start
 
 ```bash
 # Install dependencies
@@ -106,6 +110,6 @@ Each workflow produces both a JSON data file and a Markdown report in the workin
 
 ---
 
-## Author
+## 👤 Author
 
 **Huang Akai (Kai)** -- Founder @ Universal FAW Labs | Creative Technologist | Ex-Ogilvy | 15+ years in digital creative and marketing technology.
