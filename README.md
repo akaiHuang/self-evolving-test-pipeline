@@ -6,6 +6,10 @@
 
 Self-Evolving Test Pipeline 以 AI 回饋迴圈強化傳統 CI/CD，讓測試、診斷、修復與再驗證形成可自動迭代的閉環。適合用於提升測試覆蓋與修復效率的工程實驗，也可作為 agentic testing 與自動修復流程的參考架構。
 
+## About (EN)
+
+Self-Evolving Test Pipeline augments CI/CD with AI feedback loops that test, diagnose, repair, and re-validate continuously. It is aimed at teams exploring autonomous quality engineering and self-healing test operations.
+
 ## 📋 Quick Summary
 
 > 🔄 **會自我進化的測試管線——測試、學習、修復、再測試，全程無需人工介入！** 本專案突破傳統 CI/CD 的線性流程限制，引入 AI 回饋迴圈機制。🤖 系統由多個專業 AI 代理組成：Supervisor 負責任務分解與風險識別、Developer 負責程式碼實作與重構、Tester 負責測試生成與覆蓋率分析。🧪 當測試失敗時，系統不僅回報錯誤，更會 **自動分析根因、產生修復方案、重新執行測試**，反覆迭代直到收斂。📦 提供四套生產級工作流範本：多代理協作、Next.js 測試自動化（五階段循環）、平行開發（前端/後端/資料庫/測試四路並行）、以及行銷智慧分析管線。⚙️ 基於 GitHub Copilot SDK 與 GPT-4.1 構建，每個代理擁有獨立工具權限（edit、view、bash、search），透過記憶體內任務追蹤器管理依賴關係。📊 所有執行結果自動輸出 JSON 資料檔與 Markdown 報告，完美整合進現有開發流程。
